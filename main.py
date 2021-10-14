@@ -20,7 +20,7 @@ def any_msg(message):
 def callback(call):
    if call.data == 'yes':
        keyboard = types.InlineKeyboardMarkup(row_width = 1)
-       url_item1 = types.InlineKeyboardButton(text = '❓Вопросы / Продавец🛒', url = 'https://t.me/salecardssupport')
+       url_item1 = types.InlineKeyboardButton(text = '❓Вопросы / Продавец🛒', url = 'https://t.me/salecards2021')
        url_item2 = types.InlineKeyboardButton(text = '✍️Отзывы📨', url = 'https://t.me/joinchat/7ACqILeszIc4ZWZi')
        item3 = types.InlineKeyboardButton('💵💳Доступные карты💳💵', callback_data = 'cards')
 
